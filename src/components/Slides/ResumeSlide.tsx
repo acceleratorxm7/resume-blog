@@ -190,9 +190,9 @@ const projects: Array<{
   {
     name: "Personal Blog",
     description:
-      "Personal blog by using static page export from Next.JS and deploying them to Github Pages.",
+      "Personal blog by using static page export from Next.JS. It uses Github Action and Github Pages to automatically deploy the website when changes are made in the master branch.",
     techStack: ["NextJS", "TypeScript"],
-    link: "", // TODO: update github pages link
+    link: "https://acceleratorxm7.github.io/resume-blog/",
     startDate: new Date("2024-09-09"),
     endDate: null,
     githubLink: "https://github.com/acceleratorxm7/resume-blog",
