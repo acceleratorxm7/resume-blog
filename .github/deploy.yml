@@ -17,11 +17,14 @@ jobs:
         with:
           node-version: "18"
 
-      - name: Install & Build
-        uses: |
-          npm install
-          npm build
-          touch ./out/.nojekyll
+      - name: Installing dependency
+        run: npm install
+
+      - name: Building the project
+        run: npm build
+
+      - name: Update nojekyll file
+        run: touch ./out/.nojekyll
 
       - name: Deployment
         uses: JamesIves/github-pages-deploy-action@v4
