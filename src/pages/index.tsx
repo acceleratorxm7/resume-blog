@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Chanwoo's Online Portfolio</title>
+        <title>Chanwoo&apos;s Online Portfolio</title>
       </Head>
       <Navbar />
       <div className="px-8 md:px-0">

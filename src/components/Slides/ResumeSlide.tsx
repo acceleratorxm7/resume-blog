@@ -192,7 +192,7 @@ const projects: Array<{
     description:
       "Personal blog by using static page export from Next.JS and deploying them to Github Pages.",
     techStack: ["NextJS", "TypeScript"],
-    link: "", // not done yet
+    link: "", // TODO: update github pages link
     startDate: new Date("2024-09-09"),
     endDate: null,
     githubLink: "https://github.com/acceleratorxm7/resume-blog",
