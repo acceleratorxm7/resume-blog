@@ -168,6 +168,16 @@ const projects: Array<{
   githubLink: string | null;
 }> = [
   {
+    name: "Discord Bot",
+    description:
+      "The bot for Genshin Impact game-data analysis and statistics and user search. Have 5000+ servers using the bot. Currently not running due to hard maintenance and pricing.",
+    techStack: ["NodeJS", "GraphQL", "NextJS", "AWS CDK", "Heroku"],
+    link: "https://discord.com/api/oauth2/authorize?client_id=846812424387690538&permissions=8&scope=bot%20applications.commands",
+    startDate: new Date("2020-05-01"),
+    endDate: null, // ongoing
+    githubLink: null, // No GitHub link provided
+  },
+  {
     name: "Airbnb Clone Project",
     description:
       "Focused on mostly UI parts. Worked on Main Page and Room Detail Page. Focused on responsive design and layout changes during the scroll.",
@@ -178,14 +188,14 @@ const projects: Array<{
     githubLink: "https://github.com/acceleratorxm7/airbnb-clone",
   },
   {
-    name: "Discord Bot",
+    name: "Personal Blog",
     description:
-      "The bot for Genshin Impact game-data analysis and statistics and user search. Have 5000+ servers using the bot. Currently not running due to hard maintenance and pricing.",
-    techStack: ["NodeJS", "GraphQL", "NextJS", "AWS CDK", "Heroku"],
-    link: "https://discord.com/api/oauth2/authorize?client_id=846812424387690538&permissions=8&scope=bot%20applications.commands",
-    startDate: new Date("2020-05-01"),
-    endDate: null, // ongoing
-    githubLink: null, // No GitHub link provided
+      "Personal blog by using static page export from Next.JS and deploying them to Github Pages.",
+    techStack: ["NextJS", "TypeScript"],
+    link: "", // not done yet
+    startDate: new Date("2024-09-09"),
+    endDate: null,
+    githubLink: "https://github.com/acceleratorxm7/resume-blog",
   },
 ];
 
