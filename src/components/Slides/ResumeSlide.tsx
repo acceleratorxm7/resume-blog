@@ -181,7 +181,7 @@ const projects: Array<{
     name: "Airbnb Clone Project",
     description:
       "Focused on mostly UI parts. Worked on Main Page and Room Detail Page. Focused on responsive design and layout changes during the scroll.",
-    techStack: ["NextJS"],
+    techStack: ["NextJS", "TailwindCSS", "TypeScript"],
     link: "https://airbnb-clone-jade-sigma.vercel.app/",
     startDate: new Date("2024-09-09"),
     endDate: null, // ongoing
@@ -191,7 +191,7 @@ const projects: Array<{
     name: "Personal Blog",
     description:
       "Personal blog by using static page export from Next.JS. It uses Github Action and Github Pages to automatically deploy the website when changes are made in the master branch.",
-    techStack: ["NextJS", "TypeScript"],
+    techStack: ["NextJS", "TailwindCSS", "TypeScript"],
     link: "https://acceleratorxm7.github.io/resume-blog/",
     startDate: new Date("2024-09-09"),
     endDate: null,
