@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* https://stackoverflow.com/a/71685577 */
+*,
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  text-decoration: none;
+}
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overscroll-behavior: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+#navbar-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#navbar-menu li {
+  display: inline;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+#navbar-menu li:hover {
+  color: #ffd700;
+  transition: color 0.3s ease;
+}
+
+.slide-header {
+  @apply text-[36px] mb-4 text-center;
+}
+
+#tech-stack-lists {
+  margin-top: 45px;
+  list-style-position: inside;
+}
+
+#tech-stack-lists li {
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: decimal-leading-zero;
+}
+
+.resume-header {
+  @apply text-2xl font-semibold mb-3;
+}
+
+.slider {
+  @apply mx-auto w-full max-w-[1200px] box-border pt-[90px];
+}
