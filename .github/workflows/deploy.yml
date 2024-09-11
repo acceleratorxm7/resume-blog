@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Building the project
-        run: npm build
+        run: npm run build
 
       - name: Update nojekyll file
         run: touch ./out/.nojekyll
